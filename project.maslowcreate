@@ -17,7 +17,7 @@
                 },
                 {
                     "name": "Angle",
-                    "ioValue": 90
+                    "ioValue": 45
                 },
                 {
                     "name": "Length",
@@ -214,7 +214,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 90
+                            "ioValue": 45
                         }
                     ]
                 },
