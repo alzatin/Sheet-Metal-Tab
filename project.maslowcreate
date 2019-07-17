@@ -148,23 +148,15 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Angle",
-                    "x": 541,
-                    "y": 46,
-                    "uniqueID": 611671,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 546,
-                    "y": 176,
+                    "x": 514,
+                    "y": 125,
                     "uniqueID": 401088,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 13
                         },
                         {
                             "name": "yDist",
@@ -175,6 +167,14 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Angle",
+                    "x": 541,
+                    "y": 46,
+                    "uniqueID": 611671,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -198,10 +198,39 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 645,
+                    "y": 159,
+                    "uniqueID": 465240,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 725,
+                    "y": 227,
+                    "uniqueID": 749594,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 781,
-                    "y": 92,
+                    "x": 809,
+                    "y": 79,
                     "uniqueID": 573755,
                     "ioValues": []
                 },
@@ -271,7 +300,12 @@
                     "ap1ID": 421645,
                     "ap2ID": 662864
                 },
-                null,
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 421645,
+                    "ap2ID": 401088
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
@@ -322,8 +356,32 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry",
+                    "ap1ID": 401088,
+                    "ap2ID": 465240
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "z-axis degrees",
+                    "ap1ID": 611671,
+                    "ap2ID": 465240
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
                     "ap1ID": 662757,
+                    "ap2ID": 749594
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 465240,
+                    "ap2ID": 749594
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 749594,
                     "ap2ID": 573755
                 },
                 {
