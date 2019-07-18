@@ -80,24 +80,6 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 131,
-                    "y": 251,
-                    "uniqueID": 413188,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 1.5
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 10
-                        }
-                    ],
-                    "currentEquation": 0
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
                     "x": 210,
                     "y": 200,
                     "uniqueID": 662864,
@@ -143,6 +125,24 @@
                         }
                     ],
                     "currentEquation": 3
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 193,
+                    "y": 251,
+                    "uniqueID": 413188,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1.5
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 10
+                        }
+                    ],
+                    "currentEquation": 0
                 },
                 {
                     "atomType": "Equation",
@@ -333,8 +333,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 859,
-                    "y": 216,
+                    "x": 857,
+                    "y": 234,
                     "uniqueID": 796665,
                     "ioValues": [
                         {
@@ -518,12 +518,6 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "xDist",
-                    "ap1ID": 413188,
-                    "ap2ID": 796665
-                },
-                {
-                    "ap1Name": "z",
                     "ap2Name": "x length",
                     "ap1ID": 662864,
                     "ap2ID": 834746
@@ -545,6 +539,12 @@
                     "ap2Name": "xDist",
                     "ap1ID": 552628,
                     "ap2ID": 662757
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "xDist",
+                    "ap1ID": 413188,
+                    "ap2ID": 796665
                 },
                 {
                     "ap1Name": "z",
