@@ -2,7 +2,7 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Bend",
+            "name": "Sheet Metal Tab",
             "x": 0,
             "y": 0,
             "uniqueID": 814010,
@@ -177,27 +177,6 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 514,
-                    "y": 226,
-                    "uniqueID": 662757,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -13
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 544,
@@ -215,6 +194,27 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 529,
+                    "y": 241,
+                    "uniqueID": 662757,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -13
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -300,7 +300,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1048,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -416,14 +416,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 662757,
+                    "ap2Name": "geometry2",
+                    "ap1ID": 465240,
                     "ap2ID": 749594
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 465240,
+                    "ap2Name": "geometry1",
+                    "ap1ID": 662757,
                     "ap2ID": 749594
                 },
                 {
