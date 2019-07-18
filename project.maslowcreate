@@ -22,6 +22,10 @@
                 {
                     "name": "Length",
                     "ioValue": 30
+                },
+                {
+                    "name": "Tab Height",
+                    "ioValue": 20
                 }
             ],
             "topLevel": true,
@@ -262,8 +266,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 792,
-                    "y": 144,
+                    "x": 788,
+                    "y": 149,
                     "uniqueID": 354934,
                     "ioValues": [
                         {
@@ -294,10 +298,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Tab Height",
+                    "x": 843,
+                    "y": 294,
+                    "uniqueID": 574843,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 932,
-                    "y": 62,
+                    "x": 923,
+                    "y": 65,
                     "uniqueID": 950038,
                     "ioValues": [
                         {
@@ -323,7 +335,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -544,6 +556,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 796665,
+                    "ap2ID": 455514
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 574843,
                     "ap2ID": 455514
                 },
                 {
