@@ -103,16 +103,16 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 26,
-                    "y": 294,
+                    "x": 27,
+                    "y": 305,
                     "uniqueID": 476309,
                     "ioValues": []
                 },
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 268,
-                    "y": 164,
+                    "x": 266,
+                    "y": 162,
                     "uniqueID": 552628,
                     "ioValues": [
                         {
@@ -125,6 +125,24 @@
                         }
                     ],
                     "currentEquation": 3
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 207,
+                    "y": 271,
+                    "uniqueID": 761441,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 0
                 },
                 {
                     "atomType": "Translate",
@@ -156,24 +174,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 315,
-                    "y": 251,
-                    "uniqueID": 413188,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 13
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 2
-                        }
-                    ],
-                    "currentEquation": 3
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 382,
@@ -197,6 +197,24 @@
                     "y": 63,
                     "uniqueID": 611671,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 441,
+                    "y": 265,
+                    "uniqueID": 413188,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 2
+                        }
+                    ],
+                    "currentEquation": 3
                 },
                 {
                     "atomType": "Input",
@@ -257,10 +275,18 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 732,
+                    "y": 38,
+                    "uniqueID": 573755,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 692,
-                    "y": 204,
+                    "x": 714,
+                    "y": 202,
                     "uniqueID": 260806,
                     "ioValues": [
                         {
@@ -275,18 +301,10 @@
                     "currentEquation": 3
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 732,
-                    "y": 38,
-                    "uniqueID": 573755,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 700,
-                    "y": 269,
+                    "y": 301,
                     "uniqueID": 755700,
                     "ioValues": [
                         {
@@ -321,7 +339,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 6.5
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -476,12 +494,6 @@
                 },
                 {
                     "ap1Name": "z",
-                    "ap2Name": "x",
-                    "ap1ID": 421645,
-                    "ap2ID": 413188
-                },
-                {
-                    "ap1Name": "z",
                     "ap2Name": "x length",
                     "ap1ID": 662864,
                     "ap2ID": 834746
@@ -527,12 +539,6 @@
                     "ap2Name": "geometry1",
                     "ap1ID": 566826,
                     "ap2ID": 573755
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "xDist",
-                    "ap1ID": 413188,
-                    "ap2ID": 796665
                 },
                 {
                     "ap1Name": "geometry",
@@ -589,16 +595,16 @@
                     "ap2ID": 573755
                 },
                 {
-                    "ap1Name": "z",
-                    "ap2Name": "yDist",
-                    "ap1ID": 260806,
-                    "ap2ID": 796665
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 573755,
                     "ap2ID": 354934
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "yDist",
+                    "ap1ID": 260806,
+                    "ap2ID": 796665
                 },
                 {
                     "ap1Name": "geometry",
