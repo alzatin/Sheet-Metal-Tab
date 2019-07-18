@@ -245,8 +245,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 650,
-                    "y": 266,
+                    "x": 700,
+                    "y": 269,
                     "uniqueID": 755700,
                     "ioValues": [
                         {
@@ -275,8 +275,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 780,
-                    "y": 236,
+                    "x": 865,
+                    "y": 217,
                     "uniqueID": 796665,
                     "ioValues": [
                         {
@@ -296,8 +296,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 820,
-                    "y": 69,
+                    "x": 932,
+                    "y": 62,
                     "uniqueID": 950038,
                     "ioValues": [
                         {
@@ -315,10 +315,44 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 1018,
+                    "y": 244,
+                    "uniqueID": 455514,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 1094,
+                    "y": 172,
+                    "uniqueID": 986228,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 383469",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 260288",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 457164",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 926,
-                    "y": 95,
+                    "x": 1185,
+                    "y": 122,
                     "uniqueID": 528774,
                     "ioValues": [
                         {
@@ -332,19 +366,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 13
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 916,
-                    "y": 255,
-                    "uniqueID": 455514,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -527,8 +548,20 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "3D shape 260288",
                     "ap1ID": 950038,
+                    "ap2ID": 986228
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 383469",
+                    "ap1ID": 455514,
+                    "ap2ID": 986228
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 986228,
                     "ap2ID": 528774
                 },
                 {
