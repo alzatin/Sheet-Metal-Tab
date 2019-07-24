@@ -35,19 +35,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 166,
-                    "y": 45,
-                    "uniqueID": 926777,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 187,
@@ -64,6 +51,19 @@
                         }
                     ],
                     "currentEquation": "(2*x) + y"
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 215,
+                    "y": 36,
+                    "uniqueID": 926777,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -230,7 +230,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 6
+                            "ioValue": 6.5
                         },
                         {
                             "name": "yDist",
@@ -354,16 +354,16 @@
                     "ap2ID": 875822
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 926777,
-                    "ap2ID": 566826
-                },
-                {
                     "ap1Name": "result",
                     "ap2Name": "diameter",
                     "ap1ID": 698482,
                     "ap2ID": 265382
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 926777,
+                    "ap2ID": 566826
                 },
                 {
                     "ap1Name": "geometry",
