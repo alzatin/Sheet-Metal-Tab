@@ -126,6 +126,24 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 392,
+                    "y": 239,
+                    "uniqueID": 775651,
+                    "ioValues": [
+                        {
+                            "name": "R",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 3
+                        }
+                    ],
+                    "currentEquation": "R + (T/2)"
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 467,
@@ -362,6 +380,12 @@
                     "ap2ID": 663427
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "R",
+                    "ap1ID": 135631,
+                    "ap2ID": 775651
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "y",
                     "ap1ID": 663427,
@@ -398,6 +422,12 @@
                     "ap2ID": 698482
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 476309,
+                    "ap2ID": 775651
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 834746,
@@ -432,6 +462,12 @@
                     "ap2Name": "x",
                     "ap1ID": 557680,
                     "ap2ID": 377350
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 775651,
+                    "ap2ID": 796665
                 },
                 {
                     "ap1Name": "geometry",
