@@ -112,18 +112,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 414,
-                    "y": 178,
-                    "uniqueID": 557680,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 388,
-                    "y": 242,
+                    "x": 369,
+                    "y": 224,
                     "uniqueID": 298747,
                     "ioValues": [
                         {
@@ -132,10 +124,18 @@
                         },
                         {
                             "name": "T",
-                            "ioValue": 1
+                            "ioValue": 3
                         }
                     ],
-                    "currentEquation": "R - (T/2)"
+                    "currentEquation": "T-R"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 414,
+                    "y": 178,
+                    "uniqueID": 557680,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -248,7 +248,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 9.5
+                            "ioValue": -7
                         },
                         {
                             "name": "yDist",
@@ -407,7 +407,12 @@
                     "ap1ID": 476309,
                     "ap2ID": 698482
                 },
-                null,
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 476309,
+                    "ap2ID": 298747
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -427,6 +432,12 @@
                     "ap2ID": 573755
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 298747,
+                    "ap2ID": 796665
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap1ID": 557680,
@@ -443,12 +454,6 @@
                     "ap2Name": "x",
                     "ap1ID": 557680,
                     "ap2ID": 377350
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 298747,
-                    "ap2ID": 796665
                 },
                 {
                     "ap1Name": "geometry",
