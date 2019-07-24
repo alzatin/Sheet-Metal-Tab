@@ -16,10 +16,6 @@
                     "ioValue": 3
                 },
                 {
-                    "name": "Angle",
-                    "ioValue": 90
-                },
-                {
                     "name": "Length",
                     "ioValue": 30
                 },
@@ -80,8 +76,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 288,
-                    "y": 62,
+                    "x": 280,
+                    "y": 86,
                     "uniqueID": 265382,
                     "ioValues": [
                         {
@@ -94,7 +90,7 @@
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 323,
-                    "y": 227,
+                    "y": 239,
                     "uniqueID": 834746,
                     "ioValues": [
                         {
@@ -137,12 +133,17 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
+                    "atomType": "Constant",
                     "name": "Angle",
-                    "x": 459,
-                    "y": 63,
-                    "uniqueID": 611671,
-                    "ioValues": []
+                    "x": 452,
+                    "y": 60,
+                    "uniqueID": 764451,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 90
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -186,11 +187,11 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 90
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 90
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -421,9 +422,9 @@
                     "ap2ID": 465240
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "z-axis degrees",
-                    "ap1ID": 611671,
+                    "ap1Name": "number",
+                    "ap2Name": "y-axis degrees",
+                    "ap1ID": 764451,
                     "ap2ID": 465240
                 },
                 {
