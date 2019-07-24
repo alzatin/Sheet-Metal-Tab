@@ -220,7 +220,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 13
                         },
                         {
                             "name": "zDist",
@@ -344,6 +344,12 @@
                     "ap2Name": "diameter",
                     "ap1ID": 698482,
                     "ap2ID": 265382
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 698482,
+                    "ap2ID": 796665
                 },
                 {
                     "ap1Name": "number or geometry",
