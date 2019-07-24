@@ -37,8 +37,26 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 187,
-                    "y": 112,
+                    "x": 107,
+                    "y": 62,
+                    "uniqueID": 663427,
+                    "ioValues": [
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "X",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "2X"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 239,
+                    "y": 87,
                     "uniqueID": 698482,
                     "ioValues": [
                         {
@@ -47,7 +65,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 10
+                            "ioValue": 1
                         }
                     ],
                     "currentEquation": "(2*x) + y"
@@ -55,26 +73,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 215,
-                    "y": 36,
+                    "x": 260,
+                    "y": 31,
                     "uniqueID": 926777,
                     "ioValues": [
                         {
                             "name": "diameter",
                             "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 280,
-                    "y": 86,
-                    "uniqueID": 265382,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 16
                         }
                     ]
                 },
@@ -104,12 +109,17 @@
                     ]
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 401,
-                    "y": 30,
-                    "uniqueID": 566826,
-                    "ioValues": []
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 361,
+                    "y": 66,
+                    "uniqueID": 265382,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 7
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -117,6 +127,14 @@
                     "x": 414,
                     "y": 178,
                     "uniqueID": 557680,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 467,
+                    "y": 27,
+                    "uniqueID": 566826,
                     "ioValues": []
                 },
                 {
@@ -337,18 +355,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "diameter",
-                    "ap1ID": 135631,
-                    "ap2ID": 926777
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "y",
-                    "ap1ID": 135631,
-                    "ap2ID": 698482
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "R",
                     "ap1ID": 135631,
                     "ap2ID": 875822
@@ -363,12 +369,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 926777,
-                    "ap2ID": 566826
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 265382,
                     "ap2ID": 566826
                 },
                 {
@@ -398,8 +398,8 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
-                    "ap1ID": 566826,
-                    "ap2ID": 573755
+                    "ap1ID": 265382,
+                    "ap2ID": 566826
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -418,6 +418,12 @@
                     "ap2Name": "x",
                     "ap1ID": 557680,
                     "ap2ID": 377350
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 566826,
+                    "ap2ID": 573755
                 },
                 {
                     "ap1Name": "geometry",
