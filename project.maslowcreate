@@ -114,20 +114,16 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 341,
-                    "y": 247,
+                    "x": 362,
+                    "y": 244,
                     "uniqueID": 875822,
                     "ioValues": [
                         {
                             "name": "R",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "T",
-                            "ioValue": 3
                         }
                     ],
-                    "currentEquation": "R - T"
+                    "currentEquation": "R"
                 },
                 {
                     "atomType": "Input",
@@ -248,7 +244,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 7
+                            "ioValue": 10
                         },
                         {
                             "name": "yDist",
@@ -372,6 +368,12 @@
                     "ap2ID": 875822
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "R",
+                    "ap1ID": 135631,
+                    "ap2ID": 875822
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 926777,
@@ -400,12 +402,6 @@
                     "ap2Name": "x",
                     "ap1ID": 476309,
                     "ap2ID": 698482
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "T",
-                    "ap1ID": 476309,
-                    "ap2ID": 875822
                 },
                 {
                     "ap1Name": "geometry",
