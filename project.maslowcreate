@@ -63,7 +63,7 @@
                             "ioValue": 10
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "(2*x) + y"
                 },
                 {
                     "atomType": "Input",
@@ -82,7 +82,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 13
+                            "ioValue": 16
                         }
                     ]
                 },
@@ -230,7 +230,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 10
                         },
                         {
                             "name": "yDist",
@@ -346,6 +346,12 @@
                     "ap2Name": "y",
                     "ap1ID": 135631,
                     "ap2ID": 698482
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "xDist",
+                    "ap1ID": 135631,
+                    "ap2ID": 796665
                 },
                 {
                     "ap1Name": "geometry",
