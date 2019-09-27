@@ -32,7 +32,12 @@
                     "x": 25,
                     "y": 86,
                     "uniqueID": 135631,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -57,7 +62,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 3
+                            "ioValue": 10
                         },
                         {
                             "name": "y",
@@ -75,7 +80,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 3
+                            "ioValue": 10
                         },
                         {
                             "name": "y",
@@ -103,7 +108,12 @@
                     "x": 29,
                     "y": 306,
                     "uniqueID": 476309,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -131,7 +141,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 26
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -148,7 +158,7 @@
                         },
                         {
                             "name": "T",
-                            "ioValue": 3
+                            "ioValue": 10
                         }
                     ],
                     "currentEquation": "R + (T/2)"
@@ -209,7 +219,12 @@
                     "x": 506,
                     "y": 177,
                     "uniqueID": 557680,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Union",
@@ -228,7 +243,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 30
+                            "ioValue": 10
                         }
                     ],
                     "currentEquation": "x/-2"
@@ -242,11 +257,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 3
+                            "ioValue": 10
                         },
                         {
                             "name": "y length",
-                            "ioValue": 30
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -267,11 +282,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 11.5
+                            "ioValue": 15
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -15
+                            "ioValue": -5
                         },
                         {
                             "name": "zDist",
@@ -285,7 +300,12 @@
                     "x": 843,
                     "y": 294,
                     "uniqueID": 574843,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -296,7 +316,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 30
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -330,7 +350,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 20
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -341,6 +361,10 @@
                     "y": 172,
                     "uniqueID": 986228,
                     "ioValues": [
+                        {
+                            "name": "3D shape 457164",
+                            "ioValue": ""
+                        },
                         {
                             "name": "3D shape 383469",
                             "ioValue": 10
@@ -353,7 +377,8 @@
                             "name": "3D shape 457164",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Translate",
@@ -372,7 +397,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 13
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -380,7 +405,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
