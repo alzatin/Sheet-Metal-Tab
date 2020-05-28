@@ -261,8 +261,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.46486090775988287,
-                            "y": 0.6130268199233716,
+                            "x": 0.4670571010248902,
+                            "y": 0.6015325670498084,
                             "uniqueID": 515479,
                             "ioValues": [
                                 {
@@ -557,7 +557,7 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Attached GeometryÂ ",
+                    "name": "Attached Geometry ",
                     "x": 0.01683748169838946,
                     "y": 0.8045977011494253,
                     "uniqueID": 211264,
@@ -581,6 +581,35 @@
                         {
                             "name": "zDist",
                             "ioValue": 3
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Gcode",
+                    "name": "Gcode",
+                    "x": 0.5527086383601757,
+                    "y": 0.6973180076628352,
+                    "uniqueID": 745819,
+                    "ioValues": [
+                        {
+                            "name": "tool size",
+                            "ioValue": 6.35
+                        },
+                        {
+                            "name": "passes",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "speed",
+                            "ioValue": 500
+                        },
+                        {
+                            "name": "tabs",
+                            "ioValue": "true"
+                        },
+                        {
+                            "name": "safe height",
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -748,7 +777,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 25
+                            "ioValue": 40
                         }
                     ]
                 },
@@ -989,7 +1018,7 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "Attached GeometryÂ ",
+            "ap2Name": "Attached Geometry ",
             "ap2Primary": false,
             "ap1ID": 434667,
             "ap2ID": 898614
