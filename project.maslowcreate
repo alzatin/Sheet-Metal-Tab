@@ -85,23 +85,45 @@
                     "topLevel": false,
                     "allAtoms": [
                         {
+                            "atomType": "Equation",
+                            "name": "Equation",
+                            "x": 0.21742313323572474,
+                            "y": 0.18773946360153254,
+                            "uniqueID": 830629,
+                            "ioValues": [
+                                {
+                                    "name": "T",
+                                    "ioValue": 3
+                                }
+                            ],
+                            "currentEquation": "2*T"
+                        },
+                        {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.09736456808199122,
-                            "y": 0.18007662835249041,
+                            "x": 0.34553440702781846,
+                            "y": 0.24904214559386972,
                             "uniqueID": 256698,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 10
+                                    "ioValue": 6
                                 }
                             ]
                         },
                         {
+                            "atomType": "Input",
+                            "name": "Thickness",
+                            "x": 0.01171303074670571,
+                            "y": 0.4406130268199233,
+                            "uniqueID": 860534,
+                            "ioValues": []
+                        },
+                        {
                             "atomType": "Molecule",
                             "name": "Cutaway Mask",
-                            "x": 0.16617862371888725,
-                            "y": 0.32567049808429116,
+                            "x": 0.5021961932650073,
+                            "y": 0.3218390804597701,
                             "uniqueID": 875717,
                             "ioValues": [],
                             "topLevel": false,
@@ -231,37 +253,29 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.3301610541727672,
-                            "y": 0.24521072796934865,
+                            "x": 0.6442166910688141,
+                            "y": 0.14942528735632182,
                             "uniqueID": 142733,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Input",
-                            "name": "Thickness",
-                            "x": 0.01171303074670571,
-                            "y": 0.4406130268199233,
-                            "uniqueID": 860534,
                             "ioValues": []
                         },
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.11200585651537336,
-                            "y": 0.524904214559387,
+                            "x": 0.46486090775988287,
+                            "y": 0.6130268199233716,
                             "uniqueID": 515479,
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 5
+                                    "ioValue": 3
                                 }
                             ]
                         },
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.47437774524158133,
-                            "y": 0.4061302681992337,
+                            "x": 0.7767203513909224,
+                            "y": 0.1685823754789272,
                             "uniqueID": 261169,
                             "ioValues": [
                                 {
@@ -271,10 +285,49 @@
                             ]
                         },
                         {
+                            "atomType": "Equation",
+                            "name": "Equation",
+                            "x": 0.1815519765739385,
+                            "y": 0.7816091954022989,
+                            "uniqueID": 809391,
+                            "ioValues": [
+                                {
+                                    "name": "T",
+                                    "ioValue": 3
+                                }
+                            ],
+                            "currentEquation": "T/2"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Length",
+                            "x": 0.6508052708638361,
+                            "y": 0.4942528735632184,
+                            "uniqueID": 451339,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.5761346998535871,
+                            "y": 0.6360153256704981,
+                            "uniqueID": 592449,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5812591508052709,
-                            "y": 0.28735632183908044,
+                            "x": 0.8718887262079063,
+                            "y": 0.1992337164750958,
                             "uniqueID": 431427,
                             "ioValues": [
                                 {
@@ -292,35 +345,10 @@
                             ]
                         },
                         {
-                            "atomType": "Input",
-                            "name": "Length",
-                            "x": 0.3177159590043924,
-                            "y": 0.5747126436781609,
-                            "uniqueID": 451339,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.2342606149341142,
-                            "y": 0.6973180076628352,
-                            "uniqueID": 592449,
-                            "ioValues": [
-                                {
-                                    "name": "3D shape 1",
-                                    "ioValue": 10
-                                },
-                                {
-                                    "name": "3D shape 2",
-                                    "ioValue": 10
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Equation",
                             "name": "Equation",
-                            "x": 0.45680819912152265,
-                            "y": 0.5823754789272031,
+                            "x": 0.7723279648609077,
+                            "y": 0.6436781609195402,
                             "uniqueID": 261701,
                             "ioValues": [
                                 {
@@ -331,24 +359,17 @@
                             "currentEquation": "L/-2"
                         },
                         {
-                            "atomType": "Equation",
-                            "name": "Equation",
-                            "x": 0.04904831625183016,
-                            "y": 0.9042145593869733,
-                            "uniqueID": 809391,
-                            "ioValues": [
-                                {
-                                    "name": "T",
-                                    "ioValue": 10
-                                }
-                            ],
-                            "currentEquation": "T/2"
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "ioValues": []
                         },
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.6288433382137628,
-                            "y": 0.8505747126436781,
+                            "x": 0.8967789165446559,
+                            "y": 0.8314176245210728,
                             "uniqueID": 456091,
                             "ioValues": [
                                 {
@@ -361,25 +382,46 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 5
+                                    "ioValue": 1.5
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.9853587115666179,
-                            "y": 0.5,
-                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "diameter",
+                            "ap2Primary": false,
+                            "ap1ID": 830629,
+                            "ap2ID": 256698
+                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry1",
                             "ap2Primary": false,
                             "ap1ID": 256698,
                             "ap2ID": 142733
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "T",
+                            "ap2Primary": false,
+                            "ap1ID": 860534,
+                            "ap2ID": 809391
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "T",
+                            "ap2Primary": false,
+                            "ap1ID": 860534,
+                            "ap2ID": 830629
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "diameter",
+                            "ap2Primary": false,
+                            "ap1ID": 860534,
+                            "ap2ID": 515479
                         },
                         {
                             "ap1Name": "Geometry",
@@ -396,20 +438,6 @@
                             "ap2ID": 261169
                         },
                         {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "T",
-                            "ap2Primary": false,
-                            "ap1ID": 860534,
-                            "ap2ID": 809391
-                        },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "diameter",
-                            "ap2Primary": false,
-                            "ap1ID": 860534,
-                            "ap2ID": 256698
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "3D shape 2",
                             "ap2Primary": false,
@@ -424,10 +452,10 @@
                             "ap2ID": 431427
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 431427,
+                            "ap1Name": "result",
+                            "ap2Name": "zDist",
+                            "ap2Primary": false,
+                            "ap1ID": 809391,
                             "ap2ID": 456091
                         },
                         {
@@ -452,24 +480,17 @@
                             "ap2ID": 142733
                         },
                         {
-                            "ap1Name": "result",
-                            "ap2Name": "xDist",
-                            "ap2Primary": false,
-                            "ap1ID": 261701,
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 431427,
                             "ap2ID": 456091
                         },
                         {
                             "ap1Name": "result",
-                            "ap2Name": "diameter",
+                            "ap2Name": "xDist",
                             "ap2Primary": false,
-                            "ap1ID": 809391,
-                            "ap2ID": 515479
-                        },
-                        {
-                            "ap1Name": "result",
-                            "ap2Name": "zDist",
-                            "ap2Primary": false,
-                            "ap1ID": 809391,
+                            "ap1ID": 261701,
                             "ap2ID": 456091
                         },
                         {
@@ -493,7 +514,7 @@
                             "ioValue": 3
                         }
                     ],
-                    "currentEquation": "2*T"
+                    "currentEquation": "T"
                 },
                 {
                     "atomType": "Input",
@@ -559,7 +580,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 6
+                            "ioValue": 3
                         }
                     ]
                 },
