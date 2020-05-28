@@ -585,35 +585,6 @@
                     ]
                 },
                 {
-                    "atomType": "Gcode",
-                    "name": "Gcode",
-                    "x": 0.5527086383601757,
-                    "y": 0.6973180076628352,
-                    "uniqueID": 745819,
-                    "ioValues": [
-                        {
-                            "name": "tool size",
-                            "ioValue": 6.35
-                        },
-                        {
-                            "name": "passes",
-                            "ioValue": 6
-                        },
-                        {
-                            "name": "speed",
-                            "ioValue": 500
-                        },
-                        {
-                            "name": "tabs",
-                            "ioValue": "true"
-                        },
-                        {
-                            "name": "safe height",
-                            "ioValue": 6
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
