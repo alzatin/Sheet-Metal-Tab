@@ -33,6 +33,14 @@
             "ioValues": []
         },
         {
+            "atomType": "Input",
+            "name": "Thickness",
+            "x": 0.027086383601756955,
+            "y": 0.4636015325670498,
+            "uniqueID": 587892,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Bent",
             "x": 0.40535183349851334,
@@ -621,14 +629,6 @@
                 }
             ],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Input",
-            "name": "Thickness",
-            "x": 0.018301610541727673,
-            "y": 0.475095785440613,
-            "uniqueID": 587892,
-            "ioValues": []
         },
         {
             "atomType": "Input",
