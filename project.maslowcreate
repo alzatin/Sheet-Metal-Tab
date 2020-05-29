@@ -702,12 +702,12 @@
             "uniqueID": 338318,
             "ioValues": [
                 {
-                    "name": "Length",
-                    "ioValue": 40
-                },
-                {
                     "name": "Thickness",
                     "ioValue": 3
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 40
                 }
             ],
             "topLevel": false,
@@ -1021,12 +1021,18 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Input",
-            "name": "Bent?",
-            "x": 0.027086383601756955,
-            "y": 0.8659003831417625,
-            "uniqueID": 122716,
-            "ioValues": []
+            "atomType": "GitHubMolecule",
+            "name": "If",
+            "x": 0.6346998535871157,
+            "y": 0.4406130268199233,
+            "uniqueID": 290146,
+            "projectID": "267961163",
+            "ioValues": [
+                {
+                    "name": "Conditional",
+                    "ioValue": 1
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -1232,6 +1238,14 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Input",
+            "name": "Bent?",
+            "x": 0.3740849194729136,
+            "y": 0.8735632183908046,
+            "uniqueID": 122716,
+            "ioValues": []
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9721815519765741,
@@ -1256,23 +1270,37 @@
         },
         {
             "ap1Name": "Geometry",
+            "ap2Name": "Geometry1",
+            "ap2Primary": false,
+            "ap1ID": 898614,
+            "ap2ID": 290146
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Thickness",
+            "ap2Primary": false,
+            "ap1ID": 587892,
+            "ap2ID": 338318
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Thickness",
+            "ap2Primary": false,
+            "ap1ID": 587892,
+            "ap2ID": 898614
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "Geometry2",
+            "ap2Primary": false,
+            "ap1ID": 338318,
+            "ap2ID": 290146
+        },
+        {
+            "ap1Name": "Geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 898614
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "Thickness",
-            "ap2Primary": false,
-            "ap1ID": 587892,
-            "ap2ID": 338318
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "Thickness",
-            "ap2Primary": false,
-            "ap1ID": 587892,
-            "ap2ID": 898614
+            "ap1ID": 290146
         },
         {
             "ap1Name": "Geometry",
@@ -1287,6 +1315,13 @@
             "ap2Primary": false,
             "ap1ID": 434667,
             "ap2ID": 898614
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Conditional",
+            "ap2Primary": false,
+            "ap1ID": 122716,
+            "ap2ID": 290146
         }
     ],
     "fileTypeVersion": 1,
