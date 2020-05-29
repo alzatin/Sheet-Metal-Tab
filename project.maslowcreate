@@ -687,6 +687,14 @@
             "ioValues": []
         },
         {
+            "atomType": "Input",
+            "name": "Attached Geometry",
+            "x": 0.02635431918008785,
+            "y": 0.6666666666666666,
+            "uniqueID": 509047,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Unbent",
             "x": 0.3711566617862372,
@@ -1014,17 +1022,9 @@
         },
         {
             "atomType": "Input",
-            "name": "Attached Geometry",
-            "x": 0.017839444995044598,
-            "y": 0.7203065134099617,
-            "uniqueID": 509047,
-            "ioValues": []
-        },
-        {
-            "atomType": "Input",
             "name": "Bent?",
-            "x": 0.029282576866764276,
-            "y": 0.9272030651340996,
+            "x": 0.027086383601756955,
+            "y": 0.8659003831417625,
             "uniqueID": 122716,
             "ioValues": []
         },
