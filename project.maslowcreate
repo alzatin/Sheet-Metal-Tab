@@ -526,8 +526,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 0.21522693997071743,
-                    "y": 0.45210727969348663,
+                    "x": 0.20644216691068812,
+                    "y": 0.43295019157088127,
                     "uniqueID": 919185,
                     "ioValues": [
                         {
@@ -565,8 +565,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 0.17276720351390923,
-                    "y": 0.6513409961685823,
+                    "x": 0.17130307467057102,
+                    "y": 0.6436781609195402,
                     "uniqueID": 907242,
                     "ioValues": [
                         {
@@ -723,8 +723,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Kfactor",
-                    "x": 0.12005856515373352,
-                    "y": 0.19540229885057472,
+                    "x": 0.11566617862371889,
+                    "y": 0.20306513409961685,
                     "uniqueID": 744570,
                     "ioValues": [
                         {
@@ -744,24 +744,6 @@
                     "uniqueID": 178435,
                     "ioValues": [],
                     "readmeText": "Readme text here"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 0.22767203513909223,
-                    "y": 0.421455938697318,
-                    "uniqueID": 134612,
-                    "ioValues": [
-                        {
-                            "name": "T",
-                            "ioValue": 3
-                        },
-                        {
-                            "name": "K",
-                            "ioValue": 0.4
-                        }
-                    ],
-                    "currentEquation": "(2*3.1415(T+T*K))/4"
                 },
                 {
                     "atomType": "Input",
@@ -843,20 +825,6 @@
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "K",
-                    "ap2Primary": false,
-                    "ap1ID": 744570,
-                    "ap2ID": 134612
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "T",
-                    "ap2Primary": false,
-                    "ap1ID": 428571,
-                    "ap2ID": 134612
-                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
