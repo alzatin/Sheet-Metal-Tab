@@ -310,7 +310,7 @@
                                     "ioValue": 3
                                 }
                             ],
-                            "currentEquation": "T/2"
+                            "currentEquation": "2*T"
                         },
                         {
                             "atomType": "Input",
@@ -380,13 +380,6 @@
                             "ioValues": []
                         },
                         {
-                            "atomType": "Box",
-                            "name": "Box",
-                            "x": 0.6259150805270864,
-                            "y": 0.9233716475095786,
-                            "ioValues": []
-                        },
-                        {
                             "atomType": "Translate",
                             "name": "Translate",
                             "x": 0.8967789165446559,
@@ -403,7 +396,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 1.5
+                                    "ioValue": 6
                                 }
                             ]
                         }
@@ -542,7 +535,7 @@
                             "ioValue": 3
                         }
                     ],
-                    "currentEquation": "T"
+                    "currentEquation": "2*T"
                 },
                 {
                     "atomType": "Input",
@@ -572,8 +565,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 0.1691068814055637,
-                    "y": 0.6628352490421456,
+                    "x": 0.17276720351390923,
+                    "y": 0.6513409961685823,
                     "uniqueID": 907242,
                     "ioValues": [
                         {
@@ -581,7 +574,7 @@
                             "ioValue": 3
                         }
                     ],
-                    "currentEquation": "-T"
+                    "currentEquation": "-1.5*T"
                 },
                 {
                     "atomType": "Input",
@@ -604,11 +597,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -3
+                            "ioValue": -4.5
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 3
+                            "ioValue": 6
                         }
                     ]
                 },
