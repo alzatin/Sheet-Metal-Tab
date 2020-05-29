@@ -33,18 +33,10 @@
             "ioValues": []
         },
         {
-            "atomType": "Input",
-            "name": "Thickness",
-            "x": 0.027086383601756955,
-            "y": 0.4636015325670498,
-            "uniqueID": 587892,
-            "ioValues": []
-        },
-        {
             "atomType": "Molecule",
             "name": "Bent",
-            "x": 0.4062957540263543,
-            "y": 0.24904214559386972,
+            "x": 0.3711566617862372,
+            "y": 0.23371647509578544,
             "uniqueID": 898614,
             "ioValues": [
                 {
@@ -688,17 +680,17 @@
         },
         {
             "atomType": "Input",
-            "name": "Attached Geometry",
-            "x": 0.017839444995044598,
-            "y": 0.7203065134099617,
-            "uniqueID": 509047,
+            "name": "Thickness",
+            "x": 0.027086383601756955,
+            "y": 0.4636015325670498,
+            "uniqueID": 587892,
             "ioValues": []
         },
         {
             "atomType": "Molecule",
             "name": "Unbent",
-            "x": 0.38433382137628114,
-            "y": 0.6283524904214559,
+            "x": 0.3711566617862372,
+            "y": 0.5747126436781609,
             "uniqueID": 338318,
             "ioValues": [
                 {
@@ -1022,6 +1014,14 @@
         },
         {
             "atomType": "Input",
+            "name": "Attached Geometry",
+            "x": 0.017839444995044598,
+            "y": 0.7203065134099617,
+            "uniqueID": 509047,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
             "name": "Bent?",
             "x": 0.029282576866764276,
             "y": 0.9272030651340996,
@@ -1255,6 +1255,12 @@
             "ap2ID": 338318
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 898614
+        },
+        {
             "ap1Name": "number or geometry",
             "ap2Name": "Thickness",
             "ap2Primary": false,
@@ -1267,12 +1273,6 @@
             "ap2Primary": false,
             "ap1ID": 587892,
             "ap2ID": 898614
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 434667
         },
         {
             "ap1Name": "Geometry",
