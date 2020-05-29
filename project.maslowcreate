@@ -14,7 +14,7 @@
             "ioValue": 3
         },
         {
-            "name": "Attached GeometryÃÂ ",
+            "name": "Attached Geometry",
             "ioValue": 10
         },
         {
@@ -43,8 +43,8 @@
         {
             "atomType": "Molecule",
             "name": "Bent",
-            "x": 0.40535183349851334,
-            "y": 0.2375478927203065,
+            "x": 0.4062957540263543,
+            "y": 0.24521072796934865,
             "uniqueID": 898614,
             "ioValues": [
                 {
@@ -578,7 +578,7 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Attached GeometryÂ ",
+                    "name": "Attached Geometry",
                     "x": 0.01683748169838946,
                     "y": 0.8045977011494253,
                     "uniqueID": 211264,
@@ -688,7 +688,7 @@
         },
         {
             "atomType": "Input",
-            "name": "Attached GeometryÃÂ ",
+            "name": "Attached Geometry",
             "x": 0.017839444995044598,
             "y": 0.7203065134099617,
             "uniqueID": 509047,
@@ -696,9 +696,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.41625371655104065,
-            "y": 0.6091954022988505,
+            "name": "Unbent",
+            "x": 0.38945827232796487,
+            "y": 0.6206896551724138,
             "uniqueID": 338318,
             "ioValues": [
                 {
@@ -715,26 +715,124 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 0.01684836471754212,
-                    "y": 0.2222222222222222,
+                    "x": 0.034407027818448024,
+                    "y": 0.1992337164750958,
                     "uniqueID": 106507,
                     "ioValues": []
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Kfactor",
+                    "x": 0.12005856515373352,
+                    "y": 0.19540229885057472,
+                    "uniqueID": 744570,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 0.4
+                        }
+                    ],
+                    "evolve": false,
+                    "min": 0,
+                    "max": 20
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.24084919472913618,
+                    "y": 0.2222222222222222,
+                    "uniqueID": 178435,
+                    "ioValues": [],
+                    "readmeText": "Readme text here"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 0.22767203513909223,
+                    "y": 0.421455938697318,
+                    "uniqueID": 134612,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 3
+                        },
+                        {
+                            "name": "K",
+                            "ioValue": 0.4
+                        }
+                    ],
+                    "currentEquation": "(2*3.1415(T+T*K))/4"
+                },
+                {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 0,
-                    "y": 0.5555555555555556,
+                    "x": 0.02342606149341142,
+                    "y": 0.4942528735632184,
                     "uniqueID": 428571,
                     "ioValues": []
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.4531478770131771,
+                    "y": 0.5517241379310345,
+                    "uniqueID": 534200,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Input",
-                    "name": "Attached GeometryÃÂ ",
-                    "x": 0,
-                    "y": 0.7471264367816093,
+                    "name": "Attached Geometry",
+                    "x": 0.01903367496339678,
+                    "y": 0.7279693486590038,
                     "uniqueID": 941120,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6661786237188873,
+                    "y": 0.2950191570881226,
+                    "uniqueID": 718090,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.22620790629575402,
+                    "y": 0.7816091954022989,
+                    "uniqueID": 413319,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -744,14 +842,64 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "K",
+                    "ap2Primary": false,
+                    "ap1ID": 744570,
+                    "ap2ID": 134612
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap2Primary": false,
+                    "ap1ID": 428571,
+                    "ap2ID": 134612
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 534200,
+                    "ap2ID": 718090
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 941120,
+                    "ap2ID": 413319
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 718090
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 413319,
+                    "ap2ID": 534200
+                }
+            ],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Input",
+            "name": "Bent?",
+            "x": 0.029282576866764276,
+            "y": 0.9272030651340996,
+            "uniqueID": 122716,
+            "ioValues": []
         },
         {
             "atomType": "Molecule",
             "name": "Dummy Attached Geometry",
-            "x": 0.14271555996035679,
-            "y": 0.9080459770114941,
+            "x": 0.13982430453879943,
+            "y": 0.9195402298850576,
             "uniqueID": 434667,
             "ioValues": [],
             "topLevel": false,
@@ -951,14 +1099,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Input",
-            "name": "Bent?",
-            "x": 0.029282576866764276,
-            "y": 0.9272030651340996,
-            "uniqueID": 122716,
-            "ioValues": []
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9721815519765741,
@@ -1003,14 +1143,14 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "Attached GeometryÃÂ ",
+            "ap2Name": "Attached Geometry",
             "ap2Primary": false,
             "ap1ID": 434667,
             "ap2ID": 338318
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "Attached GeometryÂ ",
+            "ap2Name": "Attached Geometry",
             "ap2Primary": false,
             "ap1ID": 434667,
             "ap2ID": 898614
