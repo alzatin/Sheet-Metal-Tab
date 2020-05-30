@@ -46,6 +46,10 @@
                 {
                     "name": "Thickness",
                     "ioValue": 3
+                },
+                {
+                    "name": "Attached Geometry",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -584,6 +588,10 @@
                     "uniqueID": 132980,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -708,6 +716,10 @@
                 {
                     "name": "Length",
                     "ioValue": 40
+                },
+                {
+                    "name": "Attached Geometry",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -845,6 +857,10 @@
                     "y": 0.842911877394636,
                     "uniqueID": 413319,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 10
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 90
@@ -1290,6 +1306,20 @@
             "ap2ID": 898614
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Attached Geometry",
+            "ap2Primary": false,
+            "ap1ID": 509047,
+            "ap2ID": 338318
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Attached Geometry",
+            "ap2Primary": false,
+            "ap1ID": 509047,
+            "ap2ID": 898614
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "Geometry2",
             "ap2Primary": false,
@@ -1301,20 +1331,6 @@
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 290146
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "Attached Geometry",
-            "ap2Primary": false,
-            "ap1ID": 434667,
-            "ap2ID": 338318
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "Attached Geometry",
-            "ap2Primary": false,
-            "ap1ID": 434667,
-            "ap2ID": 898614
         },
         {
             "ap1Name": "number or geometry",
