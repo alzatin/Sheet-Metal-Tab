@@ -27,7 +27,7 @@
         {
             "atomType": "Input",
             "name": "Length",
-            "x": 0.02635431918008785,
+            "x": 0.013333333333333334,
             "y": 0.18007662835249041,
             "uniqueID": 405728,
             "ioValues": []
@@ -35,8 +35,8 @@
         {
             "atomType": "Molecule",
             "name": "Bent",
-            "x": 0.3711566617862372,
-            "y": 0.23371647509578544,
+            "x": 0.36998147004323656,
+            "y": 0.2426229508196721,
             "uniqueID": 898614,
             "ioValues": [
                 {
@@ -57,7 +57,7 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 0,
+                    "x": 0.013333333333333334,
                     "y": 0.1992337164750958,
                     "uniqueID": 219191,
                     "ioValues": []
@@ -110,9 +110,17 @@
                         {
                             "atomType": "Input",
                             "name": "Thickness",
-                            "x": 0.01171303074670571,
+                            "x": 0.013333333333333334,
                             "y": 0.4406130268199233,
                             "uniqueID": 860534,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Length",
+                            "x": 0.013333333333333334,
+                            "y": 0.4942528735632184,
+                            "uniqueID": 451339,
                             "ioValues": []
                         },
                         {
@@ -309,14 +317,6 @@
                             "currentEquation": "2*T"
                         },
                         {
-                            "atomType": "Input",
-                            "name": "Length",
-                            "x": 0.6508052708638361,
-                            "y": 0.4942528735632184,
-                            "uniqueID": 451339,
-                            "ioValues": []
-                        },
-                        {
                             "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.5761346998535871,
@@ -434,6 +434,20 @@
                             "ap2ID": 984229
                         },
                         {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "height",
+                            "ap2Primary": false,
+                            "ap1ID": 451339,
+                            "ap2ID": 261169
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "L",
+                            "ap2Primary": false,
+                            "ap1ID": 451339,
+                            "ap2ID": 261701
+                        },
+                        {
                             "ap1Name": "result",
                             "ap2Name": "diameter",
                             "ap2Primary": false,
@@ -474,20 +488,6 @@
                             "ap2Primary": false,
                             "ap1ID": 809391,
                             "ap2ID": 456091
-                        },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "height",
-                            "ap2Primary": false,
-                            "ap1ID": 451339,
-                            "ap2ID": 261169
-                        },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "L",
-                            "ap2Primary": false,
-                            "ap1ID": 451339,
-                            "ap2ID": 261701
                         },
                         {
                             "ap1Name": "geometry",
@@ -536,7 +536,7 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 0.018301610541727673,
+                    "x": 0.013333333333333334,
                     "y": 0.5134099616858238,
                     "uniqueID": 255890,
                     "ioValues": []
@@ -575,7 +575,7 @@
                 {
                     "atomType": "Input",
                     "name": "Attached Geometry",
-                    "x": 0.01683748169838946,
+                    "x": 0.013333333333333334,
                     "y": 0.8045977011494253,
                     "uniqueID": 211264,
                     "ioValues": []
@@ -689,7 +689,7 @@
         {
             "atomType": "Input",
             "name": "Thickness",
-            "x": 0.027086383601756955,
+            "x": 0.013333333333333334,
             "y": 0.4636015325670498,
             "uniqueID": 587892,
             "ioValues": []
@@ -697,7 +697,7 @@
         {
             "atomType": "Input",
             "name": "Attached Geometry",
-            "x": 0.02635431918008785,
+            "x": 0.013333333333333334,
             "y": 0.6666666666666666,
             "uniqueID": 509047,
             "ioValues": []
@@ -727,7 +727,7 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 0.013909224011713031,
+                    "x": 0.013333333333333334,
                     "y": 0.2950191570881226,
                     "uniqueID": 428571,
                     "ioValues": []
@@ -749,7 +749,7 @@
                 {
                     "atomType": "Input",
                     "name": "Length",
-                    "x": 0.22181551976573938,
+                    "x": 0.013333333333333334,
                     "y": 0.4942528735632184,
                     "uniqueID": 106507,
                     "ioValues": []
@@ -796,7 +796,7 @@
                 {
                     "atomType": "Input",
                     "name": "Attached Geometry",
-                    "x": 0.01903367496339678,
+                    "x": 0.013333333333333334,
                     "y": 0.7279693486590038,
                     "uniqueID": 941120,
                     "ioValues": []
@@ -882,6 +882,10 @@
                     "y": 0.8122605363984674,
                     "uniqueID": 930015,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -1047,8 +1051,24 @@
                 {
                     "name": "Conditional",
                     "ioValue": 1
+                },
+                {
+                    "name": "Geometry1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Geometry2",
+                    "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "Bent?",
+            "x": 0.013333333333333334,
+            "y": 0.8735632183908046,
+            "uniqueID": 122716,
+            "ioValues": []
         },
         {
             "atomType": "Molecule",
@@ -1254,19 +1274,16 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Input",
-            "name": "Bent?",
-            "x": 0.3740849194729136,
-            "y": 0.8735632183908046,
-            "uniqueID": 122716,
-            "ioValues": []
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9721815519765741,
             "y": 0.4942528735632184,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [
